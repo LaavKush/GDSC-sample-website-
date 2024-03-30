@@ -1,0 +1,320 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  color: #858585;
+  font-family: 'Poppins', sans-serif;
+  background-image: url("contact bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #ffffff;
+  top: 0;
+  width: 100%;
+}
+
+.left {
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  height: 80px;
+  background-color: #ffffff;
+}
+
+.left .logo img {
+  width: 52px;
+  height: 52px;
+  margin-left: 0;
+  margin-top: 15px;
+}
+
+.left .text #p1 {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.left .text #p2 {
+  margin-left: 21px;
+  margin-top: 0;
+  font-size: 18px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+}
+
+nav ul li #a11:hover {
+  color: rgb(68, 132, 244);
+  font-size: 1 rem;
+}
+
+nav ul li #a21:hover {
+  color: rgb(236, 68, 52);
+  font-size: 1 rem;
+}
+
+nav ul li #a31:hover {
+  color: rgb(20, 156, 92);
+  font-size: 1 rem;
+}
+
+nav ul li #a41:hover {
+  color: rgb(252, 188, 4);
+  font-size: 1 rem;
+}
+
+nav hr {
+  border: 0;
+  background: #abaaac;
+  height: 1px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  margin-top: 2px;
+}
+
+main .text {
+  text-align: right;
+  font-size: 45px;
+  margin-right: 395px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a #a1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 800px;
+}
+
+a #a2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 800px;
+}
+
+a #a3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 800px;
+}
+
+a #a4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 800px;
+}
+
+#a1 {
+  color: rgb(176, 176, 176);
+}
+
+#a1:hover {
+  color: #0c64fc;
+  font-size: 1.5rem;
+}
+
+#a1 i {
+  color: #0c64fc;
+  background-color: rgb(232, 232, 232);
+  margin-right: 21px;
+}
+
+#a5 {
+  color: rgb(176, 176, 176);
+}
+
+#a5:hover {
+  color: #ff0404;
+  font-size: 1.5rem;
+}
+
+#a5 i {
+  color: #ff0404;
+  background-color: rgb(232, 232, 232);
+  margin-right: 15px;
+}
+
+#a2 {
+  color: rgb(176, 176, 176);
+}
+
+#a2:hover {
+  color: #040404;
+  font-size: 1.5rem;
+}
+
+#a2 i {
+  color: #040404;
+  background-color: rgb(232, 232, 232);
+  margin-right: 18px;
+}
+
+#a3 {
+  color: rgb(176, 176, 176);
+}
+
+#a3:hover {
+  color: #0c64bc;
+  font-size: 1.5rem;
+}
+
+#a3 i {
+  color: #0c64bc;
+  background-color: rgb(232, 232, 232);
+  margin-right: 15px;
+}
+
+#a4 {
+  color: rgb(176, 176, 176);
+}
+
+#a4:hover {
+  color: #f40480;
+  font-size: 1.5rem;
+}
+
+#a4 i {
+  color: #f40480;
+  background-color: rgb(232, 232, 232);
+  margin-right: 21px;
+}
+
+i {
+  width: 25px;
+  height: 25px;
+  margin-left: 936px;
+  padding: 2px;
+  margin-right: 2px;
+}
+
+.social-icons span {
+  margin-top: 10px;
+  margin-right: 100px;
+  font-size: 30px;
+}
+
+.content2 {
+  text-align: center;
+  margin-top: 500px;
+}
+
+.f2 span {
+  color: rgb(68, 132, 244);
+  font-size: 45px;
+}
+
+.s2 span {
+  color: #858585;
+  font-size: 30px;
+}
+
+.container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #e6e6e6;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 100px;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+.button a:hover {
+  color: rgb(89, 89, 89);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 2px;
+}
+
+.left1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.logo1 img {
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 350px;
+}
+
+.text1 p {
+  margin-top: 350px;
+  margin-left: 30px;
+  font-size: 30px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.right img {
+  width: 500px;
+}
+
+#p2 {
+  margin-left: 400px;
+}
